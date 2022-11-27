@@ -1,0 +1,340 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+/************header*********/
+
+.search-bar{
+    width: max;
+    height: fit-content;
+   
+    background: orange;
+    padding: 10px;
+    
+
+    
+display: flex;
+align-items: center;
+
+justify-content: space-between;
+}
+.search-bar input{
+width: 50%;
+height: 30px;
+border: none;
+border-radius: 5px;
+padding: 5px;
+
+
+}
+
+
+.vertical-line{
+    height: 30px;
+    
+    border: 1px solid rgb(156, 147, 147);
+    
+
+}
+
+.search-bar a{
+    text-decoration: none;
+    color:black;
+    font-weight:bold;
+   
+}
+.search-bar select{
+    height: 30px;
+    width: 120px;
+    border-radius:5px;
+}
+.search-bar select option{
+    border: 5px solid pink;
+   
+ 
+
+} 
+.search-bar img{
+
+    height: 20px;
+   
+    margin-bottom: 5px;
+}
+
+
+.signin a:hover{
+    color: gray;
+}
+
+.cart a:hover{
+    color: gray;
+}
+
+
+/********menubar***********/
+
+.menu-bar{
+    width: max;
+    height: fit-content;
+   padding: 10px;
+
+    
+}
+.menu-bar ul{
+   list-style: none;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   
+    
+}
+.menu-bar ul li{
+    list-style: none;
+
+    
+     
+ }
+.menu-bar ul li select{
+    cursor: pointer;
+    height: 30px;
+    width: 200px;
+    border-radius:5px;
+    border: none;
+    color: rgb(121, 121, 245);
+    font-weight: bolder;
+
+
+}
+
+.menu-bar ul li {
+    font-weight: bold;
+}
+
+.menu-bar ul a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+  height: fit-content;
+
+    padding: 2px;
+   
+ 
+}
+.menu-bar ul a li{
+   text-align: center;
+ 
+}
+.menu-bar ul a:hover{
+  
+   
+   border-width: 5px;
+   border-left: 1px solid gray;
+   border-right: 1px solid gray;
+}
+
+
+.adv{
+    width: max;
+    height: fit-content;
+   
+    
+  
+    
+
+    
+
+}
+.adv{
+    overflow: hidden;
+  
+}
+.adv img{
+   
+}
+/***********slider***********/
+
+/***********image crusial***********/
+
+.crusial{
+
+
+    width: max;
+    height: fit-content;
+    
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 10px;
+    padding: 10px;
+    overflow-x: auto;
+    
+
+
+}
+.crusial::-webkit-scrollbar{
+    display: none;
+}
+.crusial-item{
+    width: 100px;
+   
+   height: fit-content;
+
+
+}
+.crusial-item img {
+    height: 150px;
+    width: 100px;
+    
+    object-fit: cover;
+
+}
+.crusial-item b{
+    margin-left: 20px;
+    
+}
+
+/**************footer*******/
+
+.col1{
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+}
+.col1 p{
+    font-weight: bold;
+
+}
+.col1 a{
+    text-decoration: none;
+    color: black;
+    margin-top: 15px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.col2{
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+}
+
+
+.col2 p{
+    font-weight: bold;
+
+}
+.col2 a{
+    text-decoration: none;
+    color: black;
+    margin-top: 15px;
+}
+.col2 a svg  path.socialhover:hover{
+    fill: white;
+}
+
+.col3{
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+}
+.col3 p{
+    font-weight: bold;
+
+}
+
+.col3 a{
+    text-decoration: none;
+    color: black;
+    margin-top: 15px;
+}
+.col3 a img{
+    height: 50px;
+}
+.row1{
+ 
+   
+    height: fit-content;
+    width: max;
+    
+  
+    
+    
+
+   
+}
+.cardcol1{
+    float: left;
+  
+  
+   
+    
+
+
+height: fit-content;
+
+
+}
+.cardcol2{
+    float: left;
+    
+  
+    
+
+
+height: fit-content;
+
+
+}
+.cardcol3{
+    float: left;
+    
+  
+    
+
+
+height: fit-content;
+
+
+}
+.cardcol4{
+    float: left;
+   
+  
+    
+
+
+height: fit-content;
+
+
+}
+.cardcol5{
+    float: left;
+   
+  
+
+
+height: fit-content;
+
+
+}
+.cardcol6{
+  
+  
+
+
+    height: fit-content;
+    
+    
+    }
+.cardcolall{
+
+    margin: 0;
+    padding: 30px;
+}
+
+
+
+
