@@ -3,6 +3,11 @@
     margin: 0;
     padding: 0;
 }
+body{
+    width: 1348px;
+    margin: auto;
+    
+}
 
 /************header*********/
 
